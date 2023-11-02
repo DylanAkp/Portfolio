@@ -79,7 +79,7 @@ export default {
   align-items: center;
   justify-content: center;
   width: auto;
-  height: 30px;
+  height: 45px;
   top: 20px;
   background-color: #ffffff;
   opacity: 0.98;

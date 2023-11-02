@@ -27,7 +27,7 @@ export default {
 .description {
   width: auto;
   margin: auto;
-  font-size: 15px;
+  font-size: large;
   font-weight: 500;
 }
 

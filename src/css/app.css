@@ -10,16 +10,21 @@
   cursor: pointer;
 }
 
+.align-height {
+  display: grid !important;
+  grid-template-columns: repeat(auto-fill, minmax(min-content, max-content)) !important;
+}
+
 .bubble-container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   gap: 40px;
-  padding-right: 70px;
-  padding-left: 70px;
   justify-content: center;
   width: 100%;
   overflow: hidden;
+  padding-right: 70px;
+  padding-left: 70px;
   margin-bottom: 50px;
 }
 
@@ -35,3 +40,10 @@
   background-color: #f4f4f6;
   box-shadow: 0 0 10px #f4f4f6;
 }
+
+@media (min-width: 768px) {
+  .bubble-container {
+    grid-auto-flow: column dense;
+  }
+}
+

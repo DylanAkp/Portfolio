@@ -23,29 +23,29 @@ export default defineComponent({
         {
           name: 'AirtagsAnywhere',
           description:
-            'AirtagsAnywhere allows you to use and track your Airtags with a non-Apple device, AirtagsAnywhere intercepts the temporary files of the FindMy application in order to exploit them and make them available on its web interface. Despite the fact that a MacOS device is still needed as a server.',
-          image: 'https://imgs-7a8.pages.dev/airtags-logo.png',
+            'AirtagsAnywhere allows you to use and track your Airtags with a non-Apple device.',
+          image: 'https://img.dylanakp.dev/airtags-logo.png',
           link: 'https://github.com/DylanAkp/AirtagsAnywhere',
         },
         {
           name: 'Luna Game Launcher',
           description:
             'Luna Game Launcher is a simple game launcher. Inspired by PlayNite, it allows you to launch your games from a single interface.',
-          image: 'https://imgs-7a8.pages.dev/luna-logo.png',
+          image: 'https://img.dylanakp.dev/luna-logo.png',
           link: 'https://github.com/DylanAkp/luna-game-launcher',
         },
         {
           name: 'NothingQuickTools',
           description:
             'Provides some useful quick tiles missing on the Nothing Phone (2) by editing settings props.',
-          image: 'https://imgs-7a8.pages.dev/nqt-logo.png',
+          image: 'https://img.dylanakp.dev/nqt-logo.png',
           link: 'https://github.com/DylanAkp/NothingQuickTools',
         },
         {
           name: 'MaterialGPT',
           description:
             'MaterialGPT is an Android application that allows you to use the GPT-3.5/GPT-4 API. It is based on the Google Message design.',
-          image: 'https://imgs-7a8.pages.dev/materialgpt-logo.png',
+          image: 'https://img.dylanakp.dev/materialgpt-logo.png',
           link: 'https://github.com/DylanAkp/MaterialGPT',
         },
       ],
@@ -57,9 +57,9 @@ export default defineComponent({
 <template>
   <TopBar />
   <MenuBar />
-  <div class="bubble-container">
-    <ProfileComponent />
-    <ContactInformations class="half" />
+  <div class="bubble-container align-height">
+    <ProfileComponent/>
+    <ContactInformations/>
   </div>
   <SeparatorCat name="Projects" />
   <div class="bubble-container">

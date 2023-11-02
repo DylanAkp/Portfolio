@@ -20,8 +20,7 @@ export default {
     <div class="contact">
       <div style="font-weight: 600; font-size: large">Contact</div>
       <div style="text-align: center; opacity: 0.5">
-        Want to work together ?<br />Want to chat ?<br />Want some informations
-        on my projects ?<br />
+        Want to work together ?<br />
         Contact me !
       </div>
       <div class="clickable" @click="MailTo">

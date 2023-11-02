@@ -11,12 +11,11 @@ export default defineComponent({
 </script>
 
 <style>
-@font-face {
-  font-family: 'Lunasima', sans-serif;
-  src: url('https://fonts.googleapis.com/css2?family=Lunasima:wght@700&family=Nunito+Sans:opsz,wght@6..12,300&display=swap');
-}
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@300;400&display=swap');
 
-div {
-  font-family: 'Lunasima', sans-serif;
+
+div, body {
+  font-family: 'Sofia Sans', sans-serif;
+  font-size: large
 }
 </style>
