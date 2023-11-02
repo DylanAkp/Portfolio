@@ -1,1 +1,37 @@
 /* app global css */
+
+.no-select {
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.bubble-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding-right: 70px;
+  padding-left: 70px;
+  justify-content: center;
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 50px;
+}
+
+.bubble {
+  gap: 25px;
+  padding: 25px;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 15px;
+  background-color: #f4f4f6;
+  box-shadow: 0 0 10px #f4f4f6;
+}
