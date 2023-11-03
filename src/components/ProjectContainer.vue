@@ -1,5 +1,4 @@
 <script>
-
 export default {
   name: 'ProjectContainer',
   props: {
@@ -11,10 +10,9 @@ export default {
   methods: {
     goToGithub(link) {
       window.open(link);
-    }
+    },
   },
 };
-
 </script>
 
 <template>
@@ -25,7 +23,6 @@ export default {
       <p>{{ project.description }}</p>
     </div>
   </div>
-  
 </template>
 
 <style scoped>
@@ -41,6 +38,7 @@ export default {
 .bubble:hover {
   transform: translate(0, -3px);
   transition-duration: 700ms;
+  background-color: #d8d8d9;
 }
 
 .bubble:not(:hover) {

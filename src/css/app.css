@@ -12,7 +12,10 @@
 
 .align-height {
   display: grid !important;
-  grid-template-columns: repeat(auto-fill, minmax(min-content, max-content)) !important;
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(min-content, max-content)
+  ) !important;
 }
 
 .bubble-container {
@@ -39,6 +42,7 @@
   border-radius: 15px;
   background-color: #f4f4f6;
   box-shadow: 0 0 10px #f4f4f6;
+  margin-bottom: 5px;
 }
 
 @media (min-width: 768px) {
@@ -46,4 +50,3 @@
     grid-auto-flow: column dense;
   }
 }
-

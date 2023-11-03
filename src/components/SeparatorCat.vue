@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="title">{{ name }}</div>
+    <h3 class="title">{{ name }}</h3>
   </div>
 </template>
 
@@ -9,7 +9,7 @@ export default {
   props: {
     name: {
       type: String,
-      required: true, // Si la chaîne est requise
+      required: true,
     },
   },
 };
@@ -22,6 +22,6 @@ export default {
   margin-top: 50px;
   margin-bottom: 50px;
   text-align: center;
-  font-size: 30px;
+  font-weight: 800;
 }
 </style>

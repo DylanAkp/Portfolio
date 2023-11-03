@@ -7,7 +7,7 @@ export default {
 <template>
   <div class="bubble">
     <div class="about">
-      <div style="font-weight: 600; font-size: large">Dylan AKPINAR</div>
+      <div style="font-weight: 600; font-size: x-large">Dylan AKPINAR</div>
       <img class="profile" src="~assets/picture.jpeg" />
       <div>Software Engineer</div>
     </div>

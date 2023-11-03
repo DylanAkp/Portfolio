@@ -91,5 +91,6 @@ export default {
   box-shadow: 0 0 10px #dbdbdb;
   position: fixed;
   border-radius: 15px;
+  z-index: 100;
 }
 </style>

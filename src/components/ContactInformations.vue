@@ -18,10 +18,10 @@ export default {
 <template>
   <div class="bubble">
     <div class="contact">
-      <div style="font-weight: 600; font-size: large">Contact</div>
-      <div style="text-align: center; opacity: 0.5">
+      <div style="font-weight: 600; font-size: x-large">Contact</div>
+      <div style="text-align: center">
         Want to work together ?<br />
-        Contact me !
+        <div style="font-style: italic">Contact me !</div>
       </div>
       <div class="clickable" @click="MailTo">
         <q-icon name="ion-mail" /> contact@dylanakp.dev

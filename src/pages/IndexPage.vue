@@ -58,8 +58,8 @@ export default defineComponent({
   <TopBar />
   <MenuBar />
   <div class="bubble-container align-height">
-    <ProfileComponent/>
-    <ContactInformations/>
+    <ProfileComponent />
+    <ContactInformations />
   </div>
   <SeparatorCat name="Projects" />
   <div class="bubble-container">
