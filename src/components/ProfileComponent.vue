@@ -21,18 +21,10 @@ export default {
 </template>
 
 <style scoped>
-.bubble {
-  padding-left: 70px;
-}
-.description {
-  width: auto;
-  margin: auto;
-  font-size: large;
-  font-weight: 500;
-}
-
-.fadebtn {
-  margin-top: 200px;
+@media screen and (min-width: 1048px) {
+  .bubble {
+    padding-left: 70px;
+  }
 }
 
 .profile {
@@ -44,8 +36,6 @@ export default {
 .about {
   display: flex;
   flex-direction: column;
-  align-self: baseline;
-  align-items: center;
   justify-content: center;
   gap: 10px;
 }

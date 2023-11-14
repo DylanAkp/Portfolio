@@ -18,6 +18,31 @@
   ) !important;
 }
 
+@media only screen and (max-width: 1048px) {
+  .align-height {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+
+  .bubble-container {
+    display: flex !important;
+    flex-direction: column !important;
+    padding: 20px !important;
+    text-align: center !important;
+    margin-left: 0px;
+  }
+
+  .bubble {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    align-self: center !important;
+    width: fit-content !important;
+    height: fit-content !important;
+  }
+}
+
 .bubble-container {
   display: flex;
   flex-direction: row;
@@ -45,7 +70,7 @@
   margin-bottom: 5px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1048px) {
   .bubble-container {
     grid-auto-flow: column dense;
   }
