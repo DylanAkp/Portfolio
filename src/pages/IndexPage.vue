@@ -48,6 +48,13 @@ export default defineComponent({
           image: 'https://img.dylanakp.dev/materialgpt-logo.png',
           link: 'https://github.com/DylanAkp/MaterialGPT',
         },
+        {
+          name: 'PixelOS for Nothing Phone 2',
+          description:
+            'A port of PixelOS (An Android ROM) to the Nothing Phone 2. PixelOS brings Google Pixel features to their OS.',
+          image: 'https://pixelos.net/Images/logo.svg',
+          link: 'https://github.com/DylanAkp/PixelOS-Pong',
+        }
       ],
     };
   },
